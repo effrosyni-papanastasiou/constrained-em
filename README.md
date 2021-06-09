@@ -4,13 +4,17 @@
 
 For the solution of the optimization problem, we use **[PuLP](https://pypi.org/project/PuLP/)**, an open-source linear programming library for Python.
 
-## Files
+## Prerequisites
 
 To run the files you must first create a 'datasets' directory that includes the dataset you want to investigate. Our work focuses the analysis on data from Twitter but we could apply the algorithm on other domains as well. Online social media datasets must have the form *(pid, t, uid, rid)* to include four types of information: 
 1. The unique post id *pid*. The post could either be an original post (i.e., a tweet) or a repost of an original post (i.e., a retweet).
 2. The timestamp of the post's creation *t*.
 3. The *uid* of the user who posted it.
 4. The repost id *rid* that is either equal to -1 if the post is an original post, or equal to the *pid* of the original post if it is a repost. 
+
+For this work we used a real-world Twitter dataset coming from Kaggle, referred to as **[Russian](https://www.kaggle.com/borisch/russian-election-2018-twitter)**. It is not added in this repository due to size constraints.
+
+## Files
 
 This repository includes five Jupyter notebooks (found in the 'jupyter-notebooks' directory) that make use of the dataset added inside the 'datasets' directory. The notebooks must be executed in the following order:
 - **0-trace-preprocessing.ipynb**
