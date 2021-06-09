@@ -24,12 +24,12 @@ This notebook contains the main algorithm of **Constrained-EM**. Results are ext
 - **2-newman.ipynb**
 The application of **Newman's [1]** algorithm on our trace. We run it to compare it with our method. Results are extracted inside the 'extracted' directory.
 - **3-saito.ipynb**
-The application of the algorithm by **Saito et al. [1]** on our trace. We run it to compare it with our method. Results are extracted inside the 'extracted' directory.
+The application of the algorithm by **Saito et al. [2]** on our trace. We run it to compare it with our method. Results are extracted inside the 'extracted' directory.
 - **4-evaluation.ipynb**
 Evaluates the above methods, along with baseline inference methods **Star** and **Chain** and compares them with our method. It uses the results inside the 'extracted' directory as input.
 
 ## References
-[1] M. E. J. Newman, 'Network structure from rich but noisy data', *Nature Physics*, vol. 14, 2018, pp. 67-75.
+[1] M. E. J. Newman, 'Network structure from rich but noisy data', *Nature Physics*, vol. 14, 2018, pp. 67-75.  
 [2] K. Saito, R. Nakano, and M. Kimura, 'Prediction of Information Diffusion Probabilities for Independent Cascade Model', in *International Conference on Knowledge-Based and Intelligent Information and Engineering Systems*, vol. 5179, 2008, pp. 67-75.
 
 
