@@ -1,5 +1,7 @@
 # Constrained-EM
 
+This work is part of the conference paper "Bayesian Inference of a Social Graph with Trace Feasibility Guarantees" that has been submitted to the **[ASONAM 21](http://asonam.cpsc.ucalgary.ca/2021/)**. The link for the work can be found **[here](https://hal.archives-ouvertes.fr/hal-03247163)**.
+
 **Constrained-EM** is a non-trivial modification of the Expectation-Maximization algorithm by **Newman [1]** which incorporates a set of feasibility constraints and a set of auxiliary variables into a graph inference process to guide it towards the feasibility of the trace. 
 
 For the solution of the optimization problem, we use **[PuLP](https://pypi.org/project/PuLP/)**, an open-source linear programming library for Python.
