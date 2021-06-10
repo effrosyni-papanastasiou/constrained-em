@@ -38,7 +38,7 @@ Evaluates the above methods, along with baseline inference methods **Star** and 
 
 To use this repository in your work please cite the following: 
 
-E. Papanastasiou, A. Giovanidis, 'Bayesian Inference of a Social Graph with Trace Feasibility Guarantees', 2021. ⟨hal-03247163⟩
+E. Papanastasiou, A. Giovanidis, 'Bayesian Inference of a Social Graph with Trace Feasibility Guarantees', 2021. **[⟨hal-03247163⟩](https://hal.archives-ouvertes.fr/hal-03247163)**
 
 ## License
 
