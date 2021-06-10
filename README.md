@@ -34,6 +34,11 @@ Evaluates the above methods, along with baseline inference methods **Star** and 
 [1] M. E. J. Newman, 'Network structure from rich but noisy data', *Nature Physics*, vol. 14, 2018, pp. 67-75.  
 [2] K. Saito, R. Nakano, and M. Kimura, 'Prediction of Information Diffusion Probabilities for Independent Cascade Model', in *International Conference on Knowledge-Based and Intelligent Information and Engineering Systems*, vol. 5179, 2008, pp. 67-75.
 
+## Citation
+
+To use this repository in your work please cite the following: 
+
+E. Papanastasiou, A. Giovanidis, 'Bayesian Inference of a Social Graph with Trace Feasibility Guarantees', 2021. ⟨hal-03247163⟩
 
 ## License
 
